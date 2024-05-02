@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "URL Updater",
+    "version": "1.0",
+    "description": "Update matching bookmark URLs",
+    "browser_action": {
+        "default_popup": "popup.html", // Specifies the popup HTML file
+        "default_icon": {
+            "48": "images/icon.png" // Specifies the icon for the extension
+        }
+    },
+    "permissions": [
+        "bookmarks", // Grants access to bookmarks API
+        "storage" // Grants access to storage API
+    ],
+    "icons": {
+        "48": "images/icon.png" // Specifies the icon for the extension
+    }
+}

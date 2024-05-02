@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                width: 300px;
+                font-family: Arial, sans-serif;
+                padding: 10px;
+            }
+            label {
+                display: block;
+                margin-top: 10px;
+            }
+            input {
+                width: 100%;
+            }
+            button {
+                display: block;
+                width: 100%;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Base Url Updater</h1>
+        <label for="prod">Prod URL:</label>
+        <input type="url" id="prod" required /> <!-- Prod Url input field-->
+        <label for="spoof">Spoof URL:</label>
+        <input type="url" id="spoof" required /> <!-- Spoof Url input field-->
+        <button id="swapUrls">Swap</button> <!-- Swap button-->
+        <button id="updateBaseUrl">Update</button> <!-- Update Base URL button-->
+        <script src="popup.js"></script>
+    </body>
+</html>
