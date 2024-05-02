@@ -24,12 +24,12 @@
 **How to Use**
 - If we have these urls as boomark:
     - https://defkey.com/iterm-shortcuts
-    - https://console.zenefits.com/console/company/119883
-    - https://console.zenefits.com/console/object_detail/7558147/benefits_transaction.models.BenefitsTransaction
-- If I pass Prod url as https://console.zenefits.com/ and Spoof url as https://gbarnwal-spoof-61650.dev.zncloud.net/ and click on "Update" button. 
+    - https://console.youtube.com/console/company/119883
+    - https://console.youtube.com/console/object_detail/7558147/
+- If I pass Prod url as https://console.youtube.com/ and Spoof url as https://gbarnwal.zncloud.net/ and click on "Update" button. 
 - We will change all the above bookmark urls as below:
     - https://defkey.com/iterm-shortcuts
-    - https://gbarnwal-spoof-61650.dev.zncloud.net/console/company/119883
-    - https://gbarnwal-spoof-61650.dev.zncloud.net/console/object_detail/7558147/benefits_transaction.models.BenefitsTransaction
+    - https://gourav.zncloud.net/console/company/119883
+    - https://gourav.zncloud.net/console/object_detail/7558147/
 - To change the base url to old state, we just need to click on "Swap" button first and then "Update" button.
 
